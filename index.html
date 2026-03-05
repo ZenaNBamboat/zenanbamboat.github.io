@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zena Nozar Bamboat — AI Engineer and Systems Consultant. TELUS Hackathon Winner, Women in AI Canada Winner, Schulich Dean's Cup Winner. Portfolio of enterprise AI, computer vision, generative AI, and consulting projects." />
+  <title>Zena Nozar Bamboat · AI Engineer & Systems Consultant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ─── NAV ──────────────────────────────────────────────────────────────── -->
+<header class="nav-header" id="site-header" role="banner">
+  <nav class="nav-inner" aria-label="Primary navigation">
+    <a href="#home" class="nav-logo" aria-label="Zena Nozar Bamboat — home">
+      <span class="logo-first">Zena</span> Nozar Bamboat
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navMenu" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#systems">AI Systems</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#insights">Insights</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/Zena_Resume.pdf" class="nav-cta" download>Resume</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ─── HERO ──────────────────────────────────────────────────────────────── -->
+<section class="hero" id="home" aria-labelledby="hero-name">
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-eyebrow">AI Engineer · AI Systems Consultant · Responsible AI Builder</p>
+      <h1 id="hero-name">Zena Nozar<br><em>Bamboat</em></h1>
+      <p class="hero-value">Building real-world AI systems that combine machine learning, cloud infrastructure, and human-centered design to deliver measurable business value.</p>
+      <ul class="hero-bullets" aria-label="Key credentials">
+        <li><span class="bullet-dot" aria-hidden="true">●</span> AI Consultant — True Impact · Software Developer — Bell Canada</li>
+        <li><span class="bullet-dot" aria-hidden="true">●</span> Former Software Developer — Bell Canada</li>
+        <li><span class="bullet-dot" aria-hidden="true">●</span> TELUS Hackathon Winner · Women in AI Canada Winner · Schulich Dean's Cup Round 2 Winners (RBC)</li>
+        <li><span class="bullet-dot" aria-hidden="true">●</span> Cohort Representative — Schulich MMAI</li>
+      </ul>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets/Zena_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+        <a href="https://www.linkedin.com/in/zenanbamboat" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn (opens in new tab)">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <canvas id="neuralCanvas" width="480" height="420"></canvas>
+    </div>
+  </div>
+
+  <div class="impact-strip" role="region" aria-label="Key metrics">
+    <div class="impact-item">
+      <span class="impact-num">2×</span>
+      <span class="impact-label">National Hackathon Winner</span>
+    </div>
+    <div class="impact-divider" aria-hidden="true"></div>
+    <div class="impact-item">
+      <span class="impact-num">95%+</span>
+      <span class="impact-label">Model Accuracy (TELUS)</span>
+    </div>
+    <div class="impact-divider" aria-hidden="true"></div>
+    <div class="impact-item">
+      <span class="impact-num">$150K</span>
+      <span class="impact-label">Est. Value / 1K Acres</span>
+    </div>
+    <div class="impact-divider" aria-hidden="true"></div>
+    <div class="impact-item">
+      <span class="impact-num">9+</span>
+      <span class="impact-label">AI & Analytics Projects</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FEATURED PROJECTS ─────────────────────────────────────────────────── -->
+<section class="section featured-section" id="featured" aria-labelledby="featured-heading">
+  <div class="container">
+    <div class="section-label">Featured Work</div>
+    <h2 id="featured-heading">Flagship Projects</h2>
+    <p class="section-sub">Computer vision, generative AI, agentic systems, and applied AI consulting — spanning agriculture, education, wellbeing, and marketing analytics.</p>
+    <div class="project-cards" role="list">
+
+      <article class="project-card" role="listitem">
+        <div class="card-badge">🏆 TELUS Flourish Hackathon · Winner</div>
+        <h3>TELUS FLOURISH</h3>
+        <p>Edge AI system detecting crop disease from drone imagery using U-Net segmentation — early detection 7–14 days before manual scouting, 95%+ accuracy, up to $150K value per 1,000 acres.</p>
+        <div class="tech-tags"><span>PyTorch</span><span>U-Net CNN</span><span>OpenCV</span><span>Albumentations</span></div>
+        <a href="#project-telus" class="btn btn-card">View Case Study →</a>
+      </article>
+
+      <article class="project-card" role="listitem">
+        <div class="card-badge">🏆 Women in AI Canada · Winner</div>
+        <h3>MindBloom</h3>
+        <p>Adaptive AI learning platform for neurodiverse students. LLM + RAG pipeline generates personalized lessons with 93% learner profiling accuracy and an estimated 40% reading improvement.</p>
+        <div class="tech-tags"><span>LLM</span><span>RAG</span><span>Scikit-learn</span><span>Streamlit</span></div>
+        <a href="#project-mindbloom" class="btn btn-card">View Case Study →</a>
+      </article>
+
+      <article class="project-card" role="listitem">
+        <div class="card-badge">⭐ Google Cloud × AI Tinkerers · Top 3 Crowd Favourite</div>
+        <h3>Orbi AI</h3>
+        <p>Multi-agent AI companion deployed live on Google Cloud Run. Empathetic dialogue, micro-action planning, and persistent personalized memory via Vertex AI Gemini 1.5 Flash and Firestore.</p>
+        <div class="tech-tags"><span>Vertex AI</span><span>Gemini 1.5 Flash</span><span>Cloud Run</span><span>Firestore</span></div>
+        <a href="#project-orbi" class="btn btn-card">View Case Study →</a>
+      </article>
+
+      <article class="project-card" role="listitem">
+        <div class="card-badge">💼 Consulting · True Impact</div>
+        <h3>AI Attention Analytics</h3>
+        <p>Computer vision attention scoring modules for marketing creative assets. Aligned machine predictions with consultant evaluations to deliver explainable, executive-ready performance insights.</p>
+        <div class="tech-tags"><span>Python</span><span>Computer Vision</span><span>Explainable AI</span></div>
+        <a href="#project-trueimpact" class="btn btn-card">View Case Study →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ──────────────────────────────────────────────────────────────── -->
+<section class="section about-section" id="about" aria-labelledby="about-heading">
+  <div class="container about-grid">
+    <div class="about-left">
+      <div class="section-label">About</div>
+      <h2 id="about-heading">Engineer.<br>Consultant.<br>Builder.</h2>
+      <div class="about-portrait" aria-label="Professional portrait — replace with your photo">
+        <div class="portrait-placeholder">ZNB</div>
+      </div>
+    </div>
+    <div class="about-right">
+      <p class="about-intro">I am an AI engineer and systems consultant specializing in building real-world AI solutions that combine machine learning, cloud infrastructure, and human-centered design.</p>
+      <p>My work focuses on deploying AI systems that move beyond experimentation and deliver measurable value across industries — from agriculture and education to digital wellbeing and marketing analytics. I care about building AI that organizations can trust, explain, and act on.</p>
+      <p>Before pursuing AI consulting, I worked as a software developer at Bell Canada, where I built enterprise analytics systems and data pipelines used across operational teams. That engineering foundation shapes every project I take on: rigor, scalability, and accountability built in from the start — not added later.</p>
+      <p>At Schulich's MMAI program I've led multiple AI innovation projects, won two national hackathons, placed in the top 3 at a Google Cloud AI event, and won Round 2 of the Schulich Dean's Cup — demonstrating both technical depth and the ability to deliver under real-world constraints.</p>
+
+      <div class="about-cards">
+        <div class="about-card">
+          <h3>Education</h3>
+          <p class="about-card-title">Master of Management in Artificial Intelligence</p>
+          <p class="about-card-org">Schulich School of Business, York University</p>
+          <p class="about-card-detail">Machine Learning · Deep Learning · NLP · AI Strategy · Responsible AI · Cloud AI</p>
+        </div>
+        <div class="about-card">
+          <h3>Leadership</h3>
+          <ul class="about-card-list">
+            <li>MMAI Cohort Representative — Schulich</li>
+            <li>Schulich General Business Council</li>
+            <li>Bell Ambassador — Bell Canada</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="how-i-work">
+        <h3>How I Work</h3>
+        <ol class="work-steps" aria-label="Consulting and engineering approach">
+          <li><span class="step-num">01</span><div><strong>Frame the business problem first</strong> — before data or models, I define what success looks like and who makes decisions based on it.</div></li>
+          <li><span class="step-num">02</span><div><strong>Design the system, not just the model</strong> — end-to-end pipelines with data quality, bias monitoring, and explainability built in from day one.</div></li>
+          <li><span class="step-num">03</span><div><strong>Build with accountability</strong> — validation frameworks, confidence scoring, audit trails, and responsible AI checks are non-negotiable.</div></li>
+          <li><span class="step-num">04</span><div><strong>Communicate outcomes clearly</strong> — technical findings only create value when translated into decisions the business can act on.</div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS (CASE STUDIES) ───────────────────────────────────────────── -->
+<section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-label">Projects</div>
+    <h2 id="projects-heading">Case Studies</h2>
+    <p class="section-sub">Every project framed as a consulting case study — problem, approach, solution, and measurable impact.</p>
+
+    <div class="project-tabs" role="tablist" aria-label="Project categories">
+      <button role="tab" aria-selected="true" aria-controls="tab-flagship" id="btn-flagship" class="tab-btn active">Flagship (4)</button>
+      <button role="tab" aria-selected="false" aria-controls="tab-supporting" id="btn-supporting" class="tab-btn">Supporting (5)</button>
+    </div>
+
+    <!-- FLAGSHIP TAB -->
+    <div id="tab-flagship" role="tabpanel" aria-labelledby="btn-flagship" class="tab-panel active">
+
+      <!-- TELUS FLOURISH -->
+      <article class="case-study" id="project-telus" aria-labelledby="cs-telus-h">
+        <div class="cs-header">
+          <div class="cs-badge">🏆 TELUS Flourish AI Innovation Hackathon · Winner</div>
+          <h3 id="cs-telus-h">TELUS FLOURISH — Edge AI for Precision Crop Disease Detection</h3>
+        </div>
+        <div class="cs-grid">
+          <div class="cs-main">
+            <div class="cs-block">
+              <h4>Problem</h4>
+              <p>Monitoring crop health across large fields is slow, inconsistent, and limited in scale. Farmers relying on manual scouting detect disease too late — leading to broad pesticide application, elevated input costs, yield loss, and unnecessary environmental damage.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Approach</h4>
+              <ul>
+                <li>Captured high-resolution drone imagery of crop fields as the primary data source</li>
+                <li>Built a U-Net convolutional neural network for pixel-level semantic segmentation of diseased crop regions</li>
+                <li>Expanded 588 labeled images to 2,940 using rotation, flipping, brightness variation, and scaling augmentations (Albumentations)</li>
+                <li>Trained with a hybrid Binary Cross Entropy + Dice Loss function to balance classification accuracy and region overlap</li>
+                <li>Applied threshold optimization on validation data to calibrate segmentation mask outputs</li>
+                <li>Converted segmentation outputs into color-coded disease heatmaps (red = high risk, yellow = moderate, green = healthy)</li>
+                <li>Delivered targeted spray zone recommendations and confidence scores through a Streamlit farmer dashboard</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>Solution</h4>
+              <p>TELUS FLOURISH converts drone imagery into actionable disease intelligence through a multi-stage AI pipeline: image capture → preprocessing + augmentation → U-Net segmentation → heatmap generation → precision treatment recommendation. Farmers receive early disease alerts and targeted spray zones — without applying chemicals across entire fields.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Outcome & Impact</h4>
+              <ul>
+                <li><strong>95%+ accuracy</strong> on validation segmentation with strong precision, recall, F1, and IoU scores</li>
+                <li>Early disease detection <strong>7–14 days earlier</strong> than manual scouting</li>
+                <li>Estimated <strong>15–25% reduction</strong> in pesticide usage through precision intervention</li>
+                <li>Potential <strong>5–10% improvement</strong> in yield retention through earlier disease control</li>
+                <li>Estimated financial value of <strong>$50–$150 per acre per season</strong> ($50,000–$150,000 for a 1,000-acre farm)</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>My Role</h4>
+              <p>Designed and implemented the core computer vision model — a U-Net CNN for semantic segmentation of crop disease in drone imagery. Built the full training pipeline including preprocessing, Albumentations augmentation, hyperparameter tuning with Adam optimizer, and performance evaluation across precision, recall, F1, and IoU metrics. The model is the analytical core of the system, transforming raw drone imagery into pixel-level disease masks that drive all downstream recommendations.</p>
+            </div>
+          </div>
+          <div class="cs-sidebar">
+            <div class="cs-tech">
+              <h4>Tech Stack</h4>
+              <div class="tech-tags">
+                <span>PyTorch</span><span>U-Net CNN</span><span>OpenCV</span>
+                <span>NumPy</span><span>Albumentations</span><span>Matplotlib</span>
+                <span>Streamlit</span><span>Semantic Segmentation</span>
+              </div>
+            </div>
+            <div class="cs-metrics">
+              <h4>Key Results</h4>
+              <div class="metric-row"><span class="metric-label">Segmentation Accuracy</span><span class="metric-val">95%+</span></div>
+              <div class="metric-row"><span class="metric-label">Detection Lead Time</span><span class="metric-val">7–14 days</span></div>
+              <div class="metric-row"><span class="metric-label">Pesticide Reduction</span><span class="metric-val">15–25%</span></div>
+              <div class="metric-row"><span class="metric-label">Financial Value</span><span class="metric-val">$50–$150/acre</span></div>
+              <div class="metric-row"><span class="metric-label">Dataset (augmented)</span><span class="metric-val">2,940 images</span></div>
+            </div>
+            <div class="cs-links">
+              <h4>Links</h4>
+              <a href="https://github.com/ZenaNBamboat/Telus_Flourish" class="cs-link" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://drive.google.com/file/d/1TzFUiRq7sTPKyuxeTIsN-UBgzmhsv5ls/view?usp=sharing" class="cs-link" target="_blank" rel="noopener">Presentation Slides ↗</a>
+            </div>
+            <div class="cs-arch-mini">
+              <h4>Pipeline</h4>
+              <div class="flow-mini">
+                <div class="flow-node">📡 Drone Imagery</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-node">⚙️ Preprocessing + Augmentation</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-node">🧠 U-Net Segmentation</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-node">🗺 Disease Heatmap</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-node">🌾 Precision Treatment Plan</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- MINDBLOOM -->
+      <article class="case-study" id="project-mindbloom" aria-labelledby="cs-mb-h">
+        <div class="cs-header">
+          <div class="cs-badge">🏆 Women in AI Canada Hackathon · Winner</div>
+          <h3 id="cs-mb-h">MindBloom — AI-Powered Adaptive Learning for Neurodiverse Students</h3>
+        </div>
+        <div class="cs-grid">
+          <div class="cs-main">
+            <div class="cs-block">
+              <h4>Problem</h4>
+              <p>Traditional educational systems apply uniform content delivery that doesn't adapt to neurodiverse cognitive profiles — including ADHD, dyslexia, and autism spectrum conditions. One-size-fits-all delivery produces lower comprehension, higher anxiety, and reduced retention for students who learn differently.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Approach</h4>
+              <ul>
+                <li>Trained a Scikit-learn learner profiling classifier on the UCI Autism Screening Dataset, achieving ~93% accuracy in identifying cognitive profile types</li>
+                <li>Built an LLM + RAG pipeline to dynamically generate personalized lesson content tailored to each learner's classified profile</li>
+                <li>Incorporated OpenNeuro dyslexia research datasets to inform accessibility design decisions</li>
+                <li>Aligned curriculum with EQAO literacy benchmarks for educational validity</li>
+                <li>Applied accessibility-first design: text-to-speech support, dyslexia-friendly interface, and multimodal content delivery</li>
+                <li>Built an adaptive quiz feedback loop and Streamlit prototype for demonstration</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>Solution</h4>
+              <p>MindBloom combines a machine learning learner profiler with an LLM + RAG adaptive lesson generation pipeline. The system classifies each student's cognitive profile and dynamically generates personalized lesson content, pacing, and format — reducing friction and cognitive load for neurodiverse learners in a fully accessible interface.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Outcome & Impact</h4>
+              <ul>
+                <li>Learner profiling classifier achieved <strong>~93% accuracy</strong> on the UCI Autism Screening Dataset</li>
+                <li>Estimated <strong>40% improvement</strong> in reading comprehension through personalized delivery</li>
+                <li>Estimated <strong>30% reduction</strong> in learning-related anxiety</li>
+                <li>Estimated <strong>60% increase</strong> in retention using multimodal learning</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>My Role</h4>
+              <p>Designed the AI intelligence layer — the learner profiling classifier and the LLM + RAG adaptive lesson pipeline. Contributed to the adaptive quiz feedback system and supported development of the Streamlit prototype.</p>
+            </div>
+          </div>
+          <div class="cs-sidebar">
+            <div class="cs-tech">
+              <h4>Tech Stack</h4>
+              <div class="tech-tags">
+                <span>LLM</span><span>RAG</span><span>Scikit-learn</span>
+                <span>Python</span><span>Streamlit</span>
+                <span>Text-to-Speech</span><span>Multimodal AI</span>
+              </div>
+            </div>
+            <div class="cs-metrics">
+              <h4>Key Results</h4>
+              <div class="metric-row"><span class="metric-label">Classifier Accuracy</span><span class="metric-val">~93%</span></div>
+              <div class="metric-row"><span class="metric-label">Comprehension Gain</span><span class="metric-val">~40%</span></div>
+              <div class="metric-row"><span class="metric-label">Retention Increase</span><span class="metric-val">~60%</span></div>
+              <div class="metric-row"><span class="metric-label">Anxiety Reduction</span><span class="metric-val">~30%</span></div>
+            </div>
+            <div class="cs-links">
+              <h4>Links</h4>
+              <a href="https://mindbloomneurodiverseapp.streamlit.app/" class="cs-link" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ORBI AI -->
+      <article class="case-study" id="project-orbi" aria-labelledby="cs-orbi-h">
+        <div class="cs-header">
+          <div class="cs-badge">⭐ Google Cloud × AI Tinkerers Hackathon · Top 3 Crowd Favourite</div>
+          <h3 id="cs-orbi-h">Orbi AI — Multi-Agent Conversational Companion for Digital Wellbeing</h3>
+        </div>
+        <div class="cs-grid">
+          <div class="cs-main">
+            <div class="cs-block">
+              <h4>Problem</h4>
+              <p>Loneliness often stems from a lack of consistent support, motivation, and daily structure. Most digital tools address productivity or messaging in isolation — rarely integrating emotional support with actionable, personalized guidance in a single accessible system.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Approach</h4>
+              <ul>
+                <li>Designed a multi-agent architecture with four specialized agents: Companion (empathetic dialogue), Planner (micro-action generation), Memory (personalization), and Safety (response monitoring)</li>
+                <li>Built on Google Vertex AI using Gemini 1.5 Flash for low-latency, mood-aware conversational responses</li>
+                <li>Implemented persistent personalized memory using Google Cloud Firestore — enabling the system to recall past conversations and adapt to individual users over time</li>
+                <li>Deployed as a live web application on Google Cloud Run for scalable, accessible delivery</li>
+                <li>Designed a Gradio conversational interface optimized for emotional accessibility</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>Solution</h4>
+              <p>Orbi AI is a live deployed conversational AI companion that combines empathetic dialogue, lightweight daily planning, and personalized memory. It acts as both a supportive companion and an accountability partner — responding with empathy while encouraging small, achievable next steps. Built with a production-grade multi-agent architecture on Google Cloud.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Outcome & Impact</h4>
+              <ul>
+                <li><strong>Live deployed web application</strong> on Google Cloud Run — a fully functional end product</li>
+                <li>Mood-aware conversational responses powered by Gemini 1.5 Flash</li>
+                <li>Personalized memory-driven interactions via Firestore persistence across sessions</li>
+                <li>Demonstrates a production-viable multi-agent agentic AI architecture</li>
+                <li>Recognized by Google hackathon judges for system design and responsible AI approach — selected as Top 3 Crowd Favourite</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>My Role</h4>
+              <p>Built Orbi AI as a personal AI assistant designed to address social isolation, leveraging Vertex AI Agent Builder with grounding and multi-turn conversational reasoning. Focused on human-centered GenAI design, trust, and usability in real-world applications — responsible for the core conversational architecture, Firestore memory integration, and deploying the system to Google Cloud Run.</p>
+            </div>
+          </div>
+          <div class="cs-sidebar">
+            <div class="cs-tech">
+              <h4>Tech Stack</h4>
+              <div class="tech-tags">
+                <span>Vertex AI</span><span>Gemini 1.5 Flash</span>
+                <span>Google Cloud Run</span><span>Cloud Firestore</span>
+                <span>Python</span><span>Gradio</span>
+                <span>Multi-Agent AI</span>
+              </div>
+            </div>
+            <div class="cs-metrics">
+              <h4>Agent Architecture</h4>
+              <div class="metric-row"><span class="metric-label">Companion</span><span class="metric-val">Empathetic dialogue</span></div>
+              <div class="metric-row"><span class="metric-label">Planner</span><span class="metric-val">Task generation</span></div>
+              <div class="metric-row"><span class="metric-label">Memory</span><span class="metric-val">Personalization</span></div>
+              <div class="metric-row"><span class="metric-label">Safety</span><span class="metric-val">Response monitoring</span></div>
+            </div>
+            <div class="cs-links">
+              <h4>Links</h4>
+              <a href="https://www.youtube.com/watch?v=T7b65dMOJUU" class="cs-link" target="_blank" rel="noopener">Demo Video ↗</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- TRUE IMPACT -->
+      <article class="case-study" id="project-trueimpact" aria-labelledby="cs-ti-h">
+        <div class="cs-header">
+          <div class="cs-badge">💼 Applied AI Consulting · True Impact</div>
+          <h3 id="cs-ti-h">True Impact — AI Attention Analytics for Marketing Creative</h3>
+        </div>
+        <div class="cs-grid">
+          <div class="cs-main">
+            <div class="cs-block">
+              <h4>Problem</h4>
+              <p>Marketing teams often rely on subjective evaluation when assessing whether visual creative assets capture audience attention effectively. Without data-driven measurement, creative decisions lack accountability — making it difficult to predict performance or explain what drives engagement.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Approach</h4>
+              <ul>
+                <li>Developed AI-driven scoring modules using computer vision attention models to predict where viewers focus on creative assets</li>
+                <li>Built Python data analysis pipelines to process creative features and generate quantitative attention scores</li>
+                <li>Validated model outputs against expert consultant evaluations to ensure alignment between machine predictions and human judgment</li>
+                <li>Designed explainable AI outputs surfacing the specific visual features driving each attention prediction</li>
+                <li>Translated all analytics findings into consulting-style strategic recommendations for stakeholders</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>Solution</h4>
+              <p>AI-driven attention scoring modules that analyze visual creative assets and produce explainable, quantitative performance insights. The system bridges machine prediction and consultant judgment — delivering outputs that marketing teams and strategy leads can act on directly.</p>
+            </div>
+            <div class="cs-block">
+              <h4>Outcome & Impact</h4>
+              <ul>
+                <li>Improved alignment between machine attention predictions and expert consultant evaluations</li>
+                <li>Enabled evidence-based creative assessment in place of purely subjective evaluation</li>
+                <li>Delivered explainable outputs surfacing specific visual drivers of attention performance</li>
+                <li>Produced executive-level strategic recommendations from analytical findings</li>
+              </ul>
+            </div>
+            <div class="cs-block">
+              <h4>My Role</h4>
+              <p>Contributed to AI scoring module development and evaluation workflows — aligning machine predictions with human consultant insights. Responsible for pipeline development, model validation, and consulting-style communication of analytical findings to stakeholders.</p>
+            </div>
+          </div>
+          <div class="cs-sidebar">
+            <div class="cs-tech">
+              <h4>Tech Stack</h4>
+              <div class="tech-tags">
+                <span>Python</span><span>Computer Vision</span>
+                <span>Attention Modeling</span><span>Data Pipelines</span>
+                <span>Model Validation</span><span>Explainable AI</span>
+              </div>
+            </div>
+            <div class="cs-links">
+              <h4>Links</h4>
+              <a href="#" class="cs-link">Confidential — consulting engagement</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /tab-flagship -->
+
+    <!-- SUPPORTING TAB -->
+    <div id="tab-supporting" role="tabpanel" aria-labelledby="btn-supporting" class="tab-panel" hidden>
+      <div class="supporting-grid">
+
+        <article class="support-card">
+          <h3>MoodSense</h3>
+          <span class="support-tag">Behavioral AI · Mental Wellbeing</span>
+          <p>AI system analyzing behavioral and self-reported data to detect emotional patterns — helping individuals identify mood trends and triggers over time.</p>
+          <div class="tech-tags"><span>ML</span><span>Behavioral Analytics</span><span>Predictive Modeling</span></div>
+        </article>
+
+        <article class="support-card">
+          <h3>CraveSense</h3>
+          <span class="support-tag">Behavioral AI · Health Intelligence</span>
+          <p>Behavioral craving prediction system analyzing contextual and mood signals to anticipate craving triggers and support proactive, informed health decisions.</p>
+          <div class="tech-tags"><span>ML</span><span>Behavioral Analytics</span><span>Pattern Detection</span></div>
+        </article>
+
+        <article class="support-card">
+          <h3>Toronto Crime Analytics Dashboard</h3>
+          <span class="support-tag">Data Intelligence · Public Safety</span>
+          <p>Geospatial analytics dashboard visualizing Toronto crime patterns across time and geography — enabling exploratory spatial and temporal crime analysis.</p>
+          <div class="tech-tags"><span>Python</span><span>Geospatial Analysis</span><span>Data Visualization</span></div>
+          <a href="https://github.com/ZenaNBamboat/schulich_data_science" class="cs-link" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="support-card">
+          <h3>Diabetes Risk Prediction Model</h3>
+          <span class="support-tag">Healthcare AI · Classification</span>
+          <p>Supervised learning model predicting diabetes risk from clinical and lifestyle variables, with feature importance analysis for clinical interpretability.</p>
+          <div class="tech-tags"><span>Python</span><span>Scikit-learn</span><span>Classification</span></div>
+          <a href="https://github.com/ZenaNBamboat/schulich_data_science" class="cs-link" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+        <article class="support-card">
+          <h3>NLP Sentiment Analysis System</h3>
+          <span class="support-tag">Natural Language Processing</span>
+          <p>End-to-end NLP pipeline for text sentiment classification — preprocessing, feature extraction, model training, evaluation, and inference on real-world text.</p>
+          <div class="tech-tags"><span>Python</span><span>NLP</span><span>Text Classification</span></div>
+          <a href="https://github.com/ZenaNBamboat/MMAI5100_Applications_of_neural_networks" class="cs-link" target="_blank" rel="noopener">GitHub ↗</a>
+        </article>
+
+      </div>
+    </div><!-- /tab-supporting -->
+  </div>
+</section>
+
+<!-- ─── AI SYSTEMS ARCHITECTURE ───────────────────────────────────────────── -->
+<section class="section systems-section" id="systems" aria-labelledby="systems-heading">
+  <div class="container">
+    <div class="section-label">AI Systems</div>
+    <h2 id="systems-heading">System Architecture</h2>
+    <p class="section-sub">How the systems are designed — from data inputs through processing layers to decision outputs and end users.</p>
+    <div class="arch-grid">
+
+      <div class="arch-card">
+        <h3>Precision Agriculture AI</h3>
+        <p class="arch-sub">TELUS FLOURISH · U-Net · Computer Vision · Edge AI</p>
+        <div class="arch-diagram" role="img" aria-label="Drone imagery and field metadata flow into PyTorch preprocessing and U-Net segmentation, producing disease probability masks that generate a color-coded heatmap, which delivers spray zones and treatment reports to a Streamlit farmer dashboard">
+          <div class="arch-layer arch-input">
+            <div class="arch-layer-label">Data Inputs</div>
+            <div class="arch-nodes">
+              <div class="arch-node">📡 Drone Imagery (High-Res)</div>
+              <div class="arch-node">🌿 Field Coordinates</div>
+              <div class="arch-node">📅 Timestamp Metadata</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-process">
+            <div class="arch-layer-label">AI Processing (PyTorch · Albumentations)</div>
+            <div class="arch-nodes">
+              <div class="arch-node">⚙️ Preprocessing + Augmentation</div>
+              <div class="arch-node">🧠 U-Net Encoder–Decoder CNN</div>
+              <div class="arch-node">📍 Pixel-Level Disease Masks</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-output">
+            <div class="arch-layer-label">Decision Layer</div>
+            <div class="arch-nodes">
+              <div class="arch-node">🗺 Disease Severity Heatmap</div>
+              <div class="arch-node">🎯 Targeted Spray Zones</div>
+              <div class="arch-node">📊 Confidence Score</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-user">
+            <div class="arch-layer-label">Farmer Interface (Streamlit)</div>
+            <div class="arch-nodes">
+              <div class="arch-node">🌾 Visual Dashboard</div>
+              <div class="arch-node">📋 Precision Treatment Report</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-card">
+        <h3>Multi-Agent AI Companion</h3>
+        <p class="arch-sub">Orbi AI · Vertex AI · Gemini 1.5 Flash · Cloud Run · Firestore</p>
+        <div class="arch-diagram" role="img" aria-label="User message and Firestore memory flow into four Vertex AI agents — Companion, Planner, Memory, Safety — which produce an empathetic reply and micro-action plan, then update Firestore and deliver to a Gradio web app on Cloud Run">
+          <div class="arch-layer arch-input">
+            <div class="arch-layer-label">User Input</div>
+            <div class="arch-nodes">
+              <div class="arch-node">💬 Natural Language Message</div>
+              <div class="arch-node">🕓 Conversation History</div>
+              <div class="arch-node">👤 Firestore User Memory</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-process">
+            <div class="arch-layer-label">Multi-Agent Layer (Vertex AI · Gemini 1.5 Flash)</div>
+            <div class="arch-nodes">
+              <div class="arch-node">💙 Companion Agent</div>
+              <div class="arch-node">📋 Planner Agent</div>
+              <div class="arch-node">🧠 Memory Agent</div>
+              <div class="arch-node">🛡 Safety Agent</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-output">
+            <div class="arch-layer-label">Response Generation</div>
+            <div class="arch-nodes">
+              <div class="arch-node">💬 Empathetic Reply</div>
+              <div class="arch-node">✅ Micro-Action Plan</div>
+              <div class="arch-node">🔄 Memory Update (Firestore)</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-user">
+            <div class="arch-layer-label">Live Web App (Google Cloud Run)</div>
+            <div class="arch-nodes">
+              <div class="arch-node">🤖 Gradio Companion Interface</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-card">
+        <h3>Adaptive Learning AI</h3>
+        <p class="arch-sub">MindBloom · LLM + RAG · Scikit-learn · Accessibility-First</p>
+        <div class="arch-diagram" role="img" aria-label="Learner interaction data and curriculum benchmarks flow into a Scikit-learn profile classifier, then an LLM plus RAG lesson generator, producing adapted lesson content and multimodal delivery to a dyslexia-friendly Streamlit dashboard">
+          <div class="arch-layer arch-input">
+            <div class="arch-layer-label">Learner Data</div>
+            <div class="arch-nodes">
+              <div class="arch-node">📝 Learner Interaction Signals</div>
+              <div class="arch-node">📊 Behavioral Profile Data</div>
+              <div class="arch-node">📚 EQAO Curriculum Benchmarks</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-process">
+            <div class="arch-layer-label">AI Layer</div>
+            <div class="arch-nodes">
+              <div class="arch-node">🧮 Scikit-learn Profiler (~93% accuracy)</div>
+              <div class="arch-node">🧠 LLM + RAG Lesson Generator</div>
+              <div class="arch-node">🔄 Adaptive Quiz Feedback Loop</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-output">
+            <div class="arch-layer-label">Personalized Output</div>
+            <div class="arch-nodes">
+              <div class="arch-node">📖 Adapted Lesson Content</div>
+              <div class="arch-node">🎧 Text-to-Speech Audio</div>
+              <div class="arch-node">🖼 Multimodal Format Delivery</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-user">
+            <div class="arch-layer-label">Student Interface (Streamlit)</div>
+            <div class="arch-nodes">
+              <div class="arch-node">♿ Dyslexia-Friendly Dashboard</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="arch-card">
+        <h3>Responsible AI Framework</h3>
+        <p class="arch-sub">Applied across all projects · Bias · Explainability · Accountability</p>
+        <div class="arch-diagram" role="img" aria-label="Data quality audit and bias detection feed into model benchmarking and explainability checks, then deployment controls with confidence thresholds and drift monitoring, then human-in-the-loop review and audit trail">
+          <div class="arch-layer arch-input">
+            <div class="arch-layer-label">Data Layer</div>
+            <div class="arch-nodes">
+              <div class="arch-node">🔍 Data Quality Audit</div>
+              <div class="arch-node">⚖ Bias Detection Checks</div>
+              <div class="arch-node">📏 Representative Dataset Validation</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-process">
+            <div class="arch-layer-label">Model Evaluation</div>
+            <div class="arch-nodes">
+              <div class="arch-node">📐 Performance Benchmarking</div>
+              <div class="arch-node">💡 Explainability Checks</div>
+              <div class="arch-node">🧪 Adversarial & Edge Case Testing</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-output">
+            <div class="arch-layer-label">Deployment Controls</div>
+            <div class="arch-nodes">
+              <div class="arch-node">📊 Confidence Thresholds</div>
+              <div class="arch-node">🚨 Distribution Drift Monitoring</div>
+            </div>
+          </div>
+          <div class="arch-arrow-row" aria-hidden="true">↓</div>
+          <div class="arch-layer arch-user">
+            <div class="arch-layer-label">Governance</div>
+            <div class="arch-nodes">
+              <div class="arch-node">👤 Human-in-the-Loop Review</div>
+              <div class="arch-node">📋 Audit Trail</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── EXPERIENCE ─────────────────────────────────────────────────────────── -->
+<section class="section experience-section" id="experience" aria-labelledby="exp-heading">
+  <div class="container">
+    <div class="section-label">Experience</div>
+    <h2 id="exp-heading">Professional History</h2>
+    <div class="timeline" role="list">
+
+      <article class="timeline-item" role="listitem">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="timeline-org">True Impact</span>
+            <span class="timeline-role">AI Consultant</span>
+            <span class="timeline-date">September 2025 – Present</span>
+          </div>
+          <div class="timeline-body">
+            <div class="exp-col">
+              <h4>What I Did</h4>
+              <ul>
+                <li>Developed AI-driven attention scoring modules for marketing creative assets using computer vision models</li>
+                <li>Built Python data analysis pipelines for creative feature extraction and quantitative scoring</li>
+                <li>Validated model outputs against expert consultant evaluations to align machine and human judgment</li>
+                <li>Designed explainable AI outputs surfacing specific visual drivers of attention performance</li>
+                <li>Translated analytical findings into executive-level strategic recommendations</li>
+              </ul>
+            </div>
+            <div class="exp-col">
+              <h4>Core Skills Demonstrated</h4>
+              <ul>
+                <li>Computer vision attention modeling</li>
+                <li>Explainable AI design</li>
+                <li>Model validation and benchmarking</li>
+                <li>Consulting-style insight communication</li>
+                <li>Python analytics pipeline development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-item" role="listitem">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="timeline-org">Bell Canada</span>
+            <span class="timeline-role">Software Developer (Full Stack)</span>
+            <span class="timeline-date">January 2022 – February 2025</span>
+          </div>
+          <div class="timeline-body">
+            <div class="exp-col">
+              <h4>What I Did</h4>
+              <ul>
+                <li>Built enterprise analytics and reporting systems used across operational teams</li>
+                <li>Designed SQL pipelines transforming large datasets into actionable business intelligence dashboards</li>
+                <li>Ensured WCAG 2.1 accessibility compliance across internal enterprise platforms</li>
+                <li>Collaborated with cross-functional stakeholders in agile teams to deliver analytics used by leadership</li>
+              </ul>
+            </div>
+            <div class="exp-col">
+              <h4>Recognition</h4>
+              <div class="award-list">
+                <div class="award-item">
+                  <span class="award-icon" aria-hidden="true">🏅</span>
+                  <span>Bell Excellence and Innovation Award</span>
+                </div>
+                <div class="award-item">
+                  <span class="award-icon" aria-hidden="true">🔔</span>
+                  <span>Bell Ambassador</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-item timeline-edu" role="listitem">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="timeline-org">Schulich School of Business, York University</span>
+            <span class="timeline-role">Master of Management in Artificial Intelligence (MMAI)</span>
+            <span class="timeline-date">May 2025 – Present</span>
+          </div>
+          <div class="timeline-body">
+            <div class="exp-col">
+              <h4>Coursework Focus</h4>
+              <ul>
+                <li>Machine Learning &amp; Deep Learning</li>
+                <li>Natural Language Processing</li>
+                <li>AI Strategy &amp; Responsible AI</li>
+                <li>Cloud AI &amp; Systems Design</li>
+                <li>AI Product Design</li>
+              </ul>
+            </div>
+            <div class="exp-col">
+              <h4>Leadership &amp; Honours</h4>
+              <ul>
+                <li>MMAI Cohort Representative</li>
+                <li>Schulich General Business Council</li>
+                <li>🏆 Schulich Dean's Cup — Round 1 Top 5 (Accenture), Round 2 Winners (RBC)</li>
+                <li>🥉 Blanc Labs — 3rd Place Research Paper &amp; Solution</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-item timeline-edu" role="listitem">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <div class="timeline-meta">
+            <span class="timeline-org">Carleton University</span>
+            <span class="timeline-role">Honours Bachelor of Engineering — Electrical Engineering</span>
+            <span class="timeline-date">September 2015 – December 2020</span>
+          </div>
+          <div class="timeline-body">
+            <div class="exp-col">
+              <h4>Focus Areas</h4>
+              <ul>
+                <li>Systems engineering and signal processing</li>
+                <li>Software development foundations</li>
+                <li>Embedded systems and hardware-software integration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── SKILLS ─────────────────────────────────────────────────────────────── -->
+<section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+  <div class="container">
+    <div class="section-label">Skills</div>
+    <h2 id="skills-heading">Capabilities</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>AI / ML &amp; GenAI</h3>
+        <div class="skill-tags">
+          <span>Machine Learning</span><span>Deep Learning</span>
+          <span>Computer Vision</span><span>Semantic Segmentation</span>
+          <span>Natural Language Processing</span><span>Generative AI</span>
+          <span>Agentic AI</span><span>RAG</span><span>LLMs</span>
+          <span>Responsible AI</span><span>Explainable AI</span>
+          <span>Behavioral AI</span><span>Predictive Modeling</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frameworks &amp; Libraries</h3>
+        <div class="skill-tags">
+          <span>PyTorch</span><span>Scikit-learn</span>
+          <span>OpenCV</span><span>NumPy</span>
+          <span>Albumentations</span><span>Matplotlib</span>
+          <span>Streamlit</span><span>Gradio</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud &amp; Systems</h3>
+        <div class="skill-tags">
+          <span>Google Vertex AI</span><span>Gemini 1.5</span>
+          <span>Google Cloud Run</span><span>Cloud Firestore</span>
+          <span>REST APIs</span><span>Edge AI</span>
+          <span>Multi-Agent Architecture</span>
+          <span>Python</span><span>SQL</span>
+          <span>Data Pipelines</span><span>WCAG Accessibility</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Consulting &amp; Strategy</h3>
+        <div class="skill-tags">
+          <span>AI Strategy</span><span>AI System Design</span>
+          <span>Executive Communication</span><span>Stakeholder Management</span>
+          <span>Consulting Frameworks</span><span>Model Validation</span>
+          <span>AI Product Design</span><span>Agile Delivery</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CERTIFICATIONS ─────────────────────────────────────────────────────── -->
+<section class="section certs-section" id="certifications" aria-labelledby="certs-heading">
+  <div class="container">
+    <div class="section-label">Certifications</div>
+    <h2 id="certs-heading">Credentials &amp; Certifications</h2>
+    <p class="section-sub">Professional certifications demonstrating ongoing learning across AI, cloud, and data disciplines.</p>
+
+    <div class="certs-grid" role="list">
+
+      <!-- Building Scalable Agentic Systems — MAR 04, 2026 (styled card, image not separately provided) -->
+      <article class="cert-card cert-card-branded" role="listitem">
+        <div class="cert-img-wrap cert-brand-wrap">
+          <div class="cert-brand-placeholder">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect width="48" height="48" rx="8" fill="#05192D"/>
+              <polygon points="24,10 38,20 38,34 24,42 10,34 10,20" fill="none" stroke="#03EF62" stroke-width="2.2"/>
+              <circle cx="24" cy="26" r="5" fill="#03EF62" opacity="0.85"/>
+            </svg>
+            <span class="cert-brand-dc">Dk datacamp</span>
+            <span class="cert-brand-label">Statement of Accomplishment</span>
+          </div>
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Building Scalable Agentic Systems</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">March 2026 · 1.5 hrs</p>
+        </div>
+      </article>
+
+      <!-- Introduction to AI Agents — FEB 18, 2026 (styled card, image not separately provided) -->
+      <article class="cert-card cert-card-branded" role="listitem">
+        <div class="cert-img-wrap cert-brand-wrap">
+          <div class="cert-brand-placeholder">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <rect width="48" height="48" rx="8" fill="#05192D"/>
+              <polygon points="24,10 38,20 38,34 24,42 10,34 10,20" fill="none" stroke="#03EF62" stroke-width="2.2"/>
+              <circle cx="24" cy="26" r="5" fill="#03EF62" opacity="0.85"/>
+            </svg>
+            <span class="cert-brand-dc">Dk datacamp</span>
+            <span class="cert-brand-label">Statement of Accomplishment</span>
+          </div>
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Introduction to AI Agents</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">February 2026 · 1.5 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-7.png = certificate__6_.pdf = Fraud Detection (NOV 28, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-7.png" alt="Fraud Detection in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Fraud Detection in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">November 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-6.png = certificate_5.pdf = Intro to Network Analysis (NOV 15, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-6.png" alt="Introduction to Network Analysis in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Introduction to Network Analysis in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">November 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-5.png = certificate_4.pdf = Unsupervised Learning (NOV 09, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-5.png" alt="Unsupervised Learning in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Unsupervised Learning in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">November 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-4.png = certificate_3.pdf = Building Recommendation Engines (NOV 04, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-4.png" alt="Building Recommendation Engines in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Building Recommendation Engines in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">November 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-3.png = certificate_2.pdf = A/B Testing (OCT 06, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-3.png" alt="A/B Testing in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">A/B Testing in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">October 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-2.png = certificate_1.pdf = Designing ML Workflows (SEP 28, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-2.png" alt="Designing Machine Learning Workflows in Python — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Designing Machine Learning Workflows in Python</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">September 2025 · 4 hrs</p>
+        </div>
+      </article>
+
+      <!-- cert-1.png = certificate.pdf = Machine Learning for Business (SEP 18, 2025) -->
+      <article class="cert-card" role="listitem">
+        <div class="cert-img-wrap">
+          <img src="assets/certs/cert-1.png" alt="Machine Learning for Business — DataCamp Statement of Accomplishment" class="cert-img" loading="lazy" />
+        </div>
+        <div class="cert-info">
+          <p class="cert-name">Machine Learning for Business</p>
+          <p class="cert-issuer">DataCamp</p>
+          <p class="cert-date">September 2025 · 2 hrs</p>
+        </div>
+      </article>
+
+    </div><!-- /certs-grid -->
+
+  </div>
+</section>
+
+<!-- ─── INSIGHTS ──────────────────────────────────────────────────────────── -->
+<section class="section insights-section" id="insights" aria-labelledby="insights-heading">
+  <div class="container">
+    <div class="section-label">Insights</div>
+    <h2 id="insights-heading">Thought Leadership</h2>
+    <p class="section-sub">Perspectives on building AI systems that work in practice — not just in theory.</p>
+    <div class="insights-grid">
+
+      <article class="insight-card" aria-labelledby="insight-1">
+        <div class="insight-tag">AI Strategy</div>
+        <h3 id="insight-1">Designing AI Systems Executives Can Trust</h3>
+        <p>Most AI projects fail at the executive presentation, not in the model. When a decision-maker asks "why did the system recommend this?", the answer cannot be "the model said so." Trust requires three things: explainability at the right level of abstraction, confidence scoring that acknowledges uncertainty, and human oversight built into the architecture from the start.</p>
+        <p>The organizations that succeed with production AI treat trust as an engineering requirement. SHAP values, confidence thresholds, audit trails, and escalation paths are designed in at the same time as the model itself — not bolted on afterward.</p>
+        <p class="insight-takeaway">Takeaway: explainability is a system design decision, not a post-hoc narrative.</p>
+      </article>
+
+      <article class="insight-card" aria-labelledby="insight-2">
+        <div class="insight-tag">Responsible AI</div>
+        <h3 id="insight-2">How to Evaluate AI Beyond Accuracy</h3>
+        <p>Accuracy is a starting point, not a finish line. A model can achieve 95% accuracy and still be unfit for production — if that 5% error is concentrated in specific user groups, edge conditions, or high-stakes scenarios that the validation set didn't cover. I encountered this directly while working on model validation across multiple projects.</p>
+        <p>Robust AI evaluation asks: who does the model fail? Under what conditions? How does performance degrade as real-world data drifts from training distributions? These require adversarial testing, bias audits, and confidence calibration as mandatory steps — not optional enhancements.</p>
+        <p class="insight-takeaway">Takeaway: evaluation is an ongoing process, not a single number.</p>
+      </article>
+
+      <article class="insight-card" aria-labelledby="insight-3">
+        <div class="insight-tag">Agentic AI</div>
+        <h3 id="insight-3">Agentic AI: When It Helps and When It's Risky</h3>
+        <p>Agentic AI systems — those that take sequences of autonomous actions toward a goal — unlock genuinely new capability. Building Orbi AI as a multi-agent system showed me how powerful this architecture is: specialized agents collaborating to deliver a result none could achieve alone. But autonomy and accountability are in tension.</p>
+        <p>The right agentic design starts by asking: what is the cost of an incorrect action? Low-cost, reversible decisions are good candidates for agent autonomy. High-stakes actions should require explicit human confirmation built into the loop — not as a limitation, but as a design requirement that makes the system trustworthy enough to actually deploy.</p>
+        <p class="insight-takeaway">Takeaway: design agentic systems around the consequences of failure, not the ambition of capability.</p>
+      </article>
+
+      <article class="insight-card" aria-labelledby="insight-4">
+        <div class="insight-tag">Career · AI Consulting</div>
+        <h3 id="insight-4">Moving from Software Engineering to AI Solutions Consulting</h3>
+        <p>Software engineering teaches you to build systems that work. AI consulting teaches you to build systems that the right people use, trust, and act on. The transition requires more than learning machine learning — it requires developing a second language: moving fluently between technical precision and business consequence.</p>
+        <p>My path through Bell Canada's enterprise systems, three national hackathons, and applied AI consulting reinforced one consistent lesson: the engineers who make this transition aren't those who abandon their technical depth. They're those who add context — understanding what the outcome is, who the decision-maker is, and what "good enough" means in the organization's specific context.</p>
+        <p class="insight-takeaway">Takeaway: the most effective AI consultants are engineers who learned to ask "so what?" before "how?"</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ────────────────────────────────────────────────────────────── -->
+<section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+  <div class="container contact-inner">
+    <div class="section-label">Contact</div>
+    <h2 id="contact-heading">Let's Connect</h2>
+    <p class="contact-message">If you're building intelligent AI systems, exploring AI strategy opportunities, or looking for someone who bridges technical depth with real business impact — I'd love to hear from you.</p>
+    <div class="contact-links" role="list">
+
+      <a href="mailto:zenanbamboat@gmail.com" class="contact-card" role="listitem" aria-label="Send personal email">
+        <div class="contact-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">Personal Email</div>
+          <div class="contact-value">zenanbamboat@gmail.com</div>
+        </div>
+      </a>
+
+      <a href="mailto:zenanb1@schulich.yorku.ca" class="contact-card" role="listitem" aria-label="Send Schulich email">
+        <div class="contact-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">Schulich Email</div>
+          <div class="contact-value">zenanb1@schulich.yorku.ca</div>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/zenanbamboat" class="contact-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn (opens in new tab)">
+        <div class="contact-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">zenanbamboat</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/ZenaNBamboat" class="contact-card" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile (opens in new tab)">
+        <div class="contact-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value">ZenaNBamboat</div>
+        </div>
+      </a>
+
+      <a href="assets/Zena_Resume.pdf" class="contact-card contact-card-highlight" role="listitem" download aria-label="Download resume PDF">
+        <div class="contact-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </div>
+        <div>
+          <div class="contact-label">Resume</div>
+          <div class="contact-value">Download PDF</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ────────────────────────────────────────────────────────────── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-inner">
+    <p class="footer-name">Zena Nozar Bamboat</p>
+    <p class="footer-tagline">AI Engineer · AI Systems Consultant · Responsible AI Builder</p>
+    <p class="footer-copy">&copy; <span id="year"></span> Zena Nozar Bamboat. All rights reserved.</p>
+  </div>
+</
